@@ -1,0 +1,99 @@
+body
+{
+    background: url('bg-intro-desktop.png') no-repeat 0,0,#ff7978;
+    background-blend-mode:multiply;
+    background-color:#FF7978;
+    display:flex;
+
+}
+.Text
+{
+    width: 4in;
+    height: 2in;
+    margin:0.8in;
+    padding:0.8in;
+    padding-top:2in;
+    color: azure;
+    font-family: sans-serif;
+
+}
+.Text h5
+{
+    line-height:20px;
+}
+.card
+{
+    display:flex;
+
+}
+.Violet
+{
+    width:4in;
+    height:0.5in;
+    background-color:#5D54A3;
+    border-radius:9px;
+    margin-top:0.5in;
+    padding-top:0.5px;
+    color:#E3E3F4;
+    font-family:sans-serif;
+    font-size:small;
+    text-align:center;
+
+}
+.Form
+{
+    background-color:#FFFFFF;
+    width:4in;
+    height:4.5in;
+    margin-top:18px;
+    border-radius:9px;
+}
+.Form input
+{
+    width:3in;
+    height:0.5in;
+    margin-left:40px;
+    font-family:sans-serif;
+    font-weight:bold;
+    border-radius:8px;
+    border-color:#85848A;
+    border-width:0.04px;
+    padding-left:25px;
+    
+}
+.buttons:hover
+{
+    background-color:#ffced0;
+    color:black;
+    
+}
+.Submit:hover{
+    background-color:#06c471;
+}
+.Submit
+{
+    background-color:#77E2B4;
+    color:#FFFFFF;
+    border:none;
+    border-radius:8px;
+}
+
+.bottom
+{
+    margin-left:30px;
+    font-family:sans-serif;
+    font-size:xx-small;
+    color:#85848A
+}
+.bottom span
+{
+    color:#E4B0B1;
+    
+}
+.bottom input
+{
+    width:0.1in;
+    height:0.1in;
+}
+
+
