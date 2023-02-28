@@ -1,0 +1,95 @@
+body
+{
+    background:url('bg-desktop.svg') no-repeat 0,0,#674BB1;
+    background-blend-mode:color-dodge;
+    background-position:bottom;
+    background-size:contain;
+    display:flex;
+    flex-direction:column;
+   
+}
+.center
+{
+    width:12.5in;
+    height:6in;
+    margin:0.3in;
+    display:flex;
+   
+}
+.first
+{
+    width:7.5in;
+    height:4in;
+}
+.logo1
+{
+    width:7.5in;
+    height:0.8in;
+    
+}
+.logo2
+{
+    margin:0.4in;
+}
+
+.text
+{
+    width:5in;
+    height:4in;
+    margin-top:1.3in;
+    padding:0.5in;
+    padding-left:0.7in;
+    font-family: 'Open Sans', sans-serif;
+    font-size:xx-large;
+    font-weight: bolder;
+    line-height:50px;
+    color:white;
+}
+.small_text
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    line-height:30px;
+    
+}
+.submit
+{
+    width: 200px;
+    height:50px;
+    background-color:#E980E7;
+    border-color: #E980E7;
+    border-radius:25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:medium;
+    color:white;
+    box-shadow:3px 3px 5px #3a253a;
+
+}
+.submit:hover
+{
+    background-color:#fa66f7;
+}
+.favicon
+{
+    width:150px;
+    height:50px;
+    margin-left:11.5in;
+}
+.favicon img
+{
+    width:15px;
+    height:15px;
+    padding:7px;
+    margin: 4.5px;
+    filter:invert(100%);
+    border-radius:50%;
+    border-color: black;
+    border-style: solid;
+    border-width:1px;
+}
+.favicon img:hover
+{
+    filter:invert(0%);
+    background-color: #E980E7;
+}
+
