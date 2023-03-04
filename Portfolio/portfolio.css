@@ -49,7 +49,6 @@ body
     color:whitesmoke;
     display:flex;
     margin-left:0.5in;
-    
 
 }
 .text
@@ -59,6 +58,29 @@ body
     font-family:sans-serif;
     font-size:0.9in;
     z-index:3;
+}
+.ring
+{
+    width:3in;
+    height:1in;
+    position:absolute;
+    top:12%;
+    right:80%;
+}
+.ring2
+{
+    width:3in;
+    height:1in;
+    position:absolute;
+    left:85%;
+    top:180%;
+}
+.circle
+{
+    width:1in;
+    height: 1in;
+    position:absolute;
+    left:50%;
 }
 .small_text
 {
