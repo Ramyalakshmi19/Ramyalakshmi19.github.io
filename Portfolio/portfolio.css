@@ -1,0 +1,208 @@
+body
+{
+    background-color: black;
+    display:flex;
+    flex-direction:column;
+  
+}
+.navbar
+{
+    display:flex;
+    justify-content:space-between;
+    align-items: start;
+    width:12in;
+    color:white;
+    padding:0.1in;
+    background-color:transparent;
+    z-index:2;
+    margin-left:0.5in;
+    
+}
+.navbarbottom
+{
+    display:flex;
+    justify-content:space-between;
+    align-items: start;
+    width:12in;
+    color:white;
+    padding:0.1in;
+    background-color:transparent;
+    z-index:2;
+    
+}
+.navbarbottom img
+{
+    width:0.2in;
+    height:0.2in;
+    padding:0.1in;
+}
+.navbar img
+{
+    width:0.2in;
+    height:0.2in;
+    padding:0.1in;
+}
+.card
+{
+    width:12in;
+    height: 7in;
+    color:whitesmoke;
+    display:flex;
+    margin-left:0.5in;
+    
+
+}
+.text
+{
+    width:max-content;
+    height:5in;
+    font-family:sans-serif;
+    font-size:0.9in;
+    z-index:3;
+}
+.small_text
+{
+    font-family: sans-serif;
+    font-weight:lighter;
+    font-size:small;
+    line-height:0.25in;
+}
+.contact
+{
+    color:white;
+    letter-spacing:0.04in;
+    font-family: sans-serif;
+    font-size: small;
+    text-decoration: underline 0.03in;
+    text-decoration-color: rgb(33, 177, 129);
+    text-underline-offset:10px;
+}
+.name
+{
+    text-decoration: underline;
+    text-underline-offset:10px;
+    text-decoration-color: rgb(33, 177, 129);
+
+}
+
+.pic img
+{
+    top:0;
+    width:5.5in;
+    height:7in;
+    z-index:0;
+    position:absolute;
+    right:3.5%;
+}
+.acad
+{
+    width:11.5in;
+    height:3in;
+    border-top:2px solid #929292;
+    display:grid;
+    grid-template-columns:auto auto auto ;
+    gap:0.3in 0.4in;
+    padding-top:80px;
+    margin-left:0.5in;
+
+}
+.acad div
+{
+  
+    border:2px solid black;
+    color:white;
+    font-family:sans-serif;
+    font-size:0.3in;
+    font-weight:bolder;
+}
+.years
+{
+    padding:5px;
+    font-family: sans-serif;
+    font-size: small;
+}
+.projects
+{
+    width:12in;
+    height:17in;
+    color:white;
+    font-family:sans-serif;
+    font-size:0.5in;
+    font-weight:bolder;
+    padding-top:0.7in;
+    margin-left:0.5in;
+
+}
+.projtext
+{
+    margin-right:8.6in;
+}
+.projcards
+{
+    display:grid;
+    grid-template-columns:auto auto;
+    height:15in;
+    padding-top:1in;
+    gap: 0.5in 0.1in;
+    grid-auto-rows:1fr;
+}
+.projcards div
+{
+    color:white;
+    font-family: sans-serif;
+    font-size:large;
+    font-weight:bold;
+}
+.projcards img
+{
+    width:5.9in;
+    height:4in;
+}
+.bottom
+{
+    width:12.05in;
+    height: 5in;
+    background-color:#242424;
+    margin-top:0.6in;
+    padding:0.5in;
+}
+.footer
+{
+    width:12in;
+    height:4.8in;
+    display:flex;
+    font-family:sans-serif;
+    border-bottom:2px solid #929292;
+}
+.left
+{
+    width:6in;
+    height:4in;
+    color: white;
+    font-size:0.45in;
+    font-weight: bolder;
+}
+.right
+{
+    width:6in;
+    height:4in;
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows:0.5in 0.5in 2in 1in;
+}
+.right div
+{
+    padding:20px;
+    border-bottom:2px solid #929292;
+    font-size: small;
+    font-weight:lighter;
+    color:#929292;
+}
+.right p
+{
+    text-align:right;
+    margin-top:40px;
+}
+
+
+
