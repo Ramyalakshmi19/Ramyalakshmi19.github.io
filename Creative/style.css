@@ -1,0 +1,342 @@
+body
+{
+    margin-left:0;
+    display:flex;
+    flex-direction:column;
+}
+.nav
+{
+   
+    width:100%;
+    height:30%;
+    display:flex;
+    flex-direction:row;
+}
+.logo
+{
+    
+    width:40%;
+    height:100%;
+    background-color:white;
+}
+.logo img
+{
+    margin:10%;
+}
+.red
+{
+    width:60%;
+    height:100%;
+    background-color:#F94F4F ;
+    display:flex;
+}
+.red span
+{
+    width:20%;
+    height:20%;
+    text-align:center;
+    padding-top:2%;
+    font-size: medium;
+    font-family: sans-serif;
+    color:white;
+    margin-top:7%;
+}
+.call1
+{
+    font-weight:bold;
+    background-color:black;
+}
+.call2
+{
+
+    color:#F94F4F;
+    font-size:large;
+    padding-top:10%;
+    font-family: sans-serif;
+    text-decoration:underline;
+    text-underline-offset:10px;
+}
+.card1
+{
+    
+    width:100%;
+    height:100%;
+    display:flex;
+
+}
+.left
+{
+    
+    margin-left:5%;
+    width:50%;
+    height:100%;
+}
+.head
+{
+   
+    font-size:40px;
+    font-family: sans-serif;
+    font-weight:900;
+}
+.cont1
+{
+    
+    font-size:small;
+    line-height:20px;
+    font-family: sans-serif;
+    font-weight:lighter;
+}
+.cont2
+{
+   
+    padding-top:5%;
+    font-size:small;
+    font-family: sans-serif;
+    font-weight:lighter;
+    color:white;
+    line-height:30px;
+}
+.right
+{
+   
+    width:50%;
+    height: 100%;
+
+}
+.right img
+{
+    
+    width: 100%;
+    height:100%;
+}
+.card2
+{
+   
+    width:100%;
+    height:150%;
+    display:flex;
+    background-color:#F94F4F;
+    
+}
+.pic
+{
+    width:70%;
+    height:100%;
+}
+.pic img
+{
+    
+    width:100%;
+    height:100%;
+}
+.text
+{
+    
+    width: 30%;
+    height:70%;
+    background-color:#191921;
+    font-family:sans-serif;
+    font-size:60px;
+    font-weight:bolder;
+    color:white;
+    padding:10%;
+}
+.Red_letters
+{
+    
+    color:#F94F4F;
+}
+.wave
+{
+    z-index:4;
+    width:10%;
+    height:20%;
+    position:absolute;
+    margin:10%;
+    margin-left:50%;
+    
+}
+.wave img
+{
+    
+    width:100%;
+    height:60%;
+}
+
+.card3
+{
+    
+    width:83.5%;
+    height:150%;
+    position:absolute;
+    margin-top:105%;
+    margin-left:0;
+    display:flex;
+    
+}
+.small
+{
+   
+    font-size:50px;
+    margin-left:10%;
+    margin-top:60%;
+}
+.left_third
+{
+    z-index:2;
+    width:60%;
+    height:100%;
+}
+.right_third
+{
+    
+    width:72%;
+    height:100%;
+    margin-left:47.5%;
+    position:absolute;
+    z-index:1;
+    background-color:#F94F4F;
+}
+.heading
+{
+    
+    width:100%;
+    height:40%;
+    display:flex;
+   
+   
+}
+.num
+{
+   
+    width:20%;
+    height:100%;
+    
+}
+.title
+{
+   
+    width:30%;
+    height:20%;
+    color:white;
+    font-family: sans-serif;
+    font-size:larger;
+    font-weight:800;
+    position:absolute;
+    margin:5% 2% 2% 5%;
+}
+.bigbox
+{
+    width:70%;
+    height:20%;
+    margin:10% 2% 2% 15%;
+    
+}
+.num
+{
+    font-size:70px;
+    font-weight:bolder;
+    color:#FA7A7E;
+}
+.align
+{
+    padding-left:10%;
+    padding-top:0;
+}
+.card4
+{
+    width:100%;
+    height:60%;
+    margin-top:50%;
+    display:flex;
+
+}
+.guide
+{
+    width:58%;
+    height:100%;
+    margin-top:0;
+    z-index:3;
+    background-color:#191921;
+}
+.white
+{
+    width:80%;
+    height:20%;
+    padding:10%;
+    color:white;
+}
+.guide img
+{
+    padding:2%;
+}
+.arrows
+{
+    margin-left:10%;
+}
+.Roadmap
+{
+    width:60%;
+    height:120%;
+    background-image:url('/Creative/assets/desktop/image-slide-1.jpg');
+    background-position:center;
+    position:absolute;
+    z-index:2;
+    margin-left:40%;
+}
+.words{
+    width:30%;
+    height:10%;
+    margin-left:55%;
+    margin-top:75%;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight:900;
+    color:white;
+    text-align:right;
+    padding:5%;
+}
+.small
+{
+    color:white;
+    font-family: sans-serif;
+    font-weight:lighter;
+    font-size:smaller;
+    margin-left:3%;
+}
+.footer{
+    width:100%;
+    height:20%;
+    margin-top:40%;
+    display:flex;
+}
+.footer_wave
+{
+    width:10%;
+    height:50%;
+    margin-top:4%;
+    transform: translateX(-70px);
+}
+.build
+{
+    width: 50%;
+    height:100%;
+    font-family:sans-serif;
+    font-size:48px;
+    font-weight:900;
+}
+.call3
+{
+    width:15%;
+    height:40%;
+    margin-left:20%;
+    margin-top:3%;
+    text-align:center;
+    padding-top:1%;
+    font-weight:bold;
+    background-color:#F94F4F;
+    color:white;
+}
+
+
+
