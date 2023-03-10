@@ -73,7 +73,7 @@ body
 }
 .head
 {
-   
+
     font-size:40px;
     font-family: sans-serif;
     font-weight:900;
@@ -174,18 +174,20 @@ body
     display:flex;
     
 }
-.small
+.head_small
 {
-   
     font-size:50px;
     margin-left:10%;
     margin-top:60%;
+    padding-left:20%;
+
 }
 .left_third
 {
-    z-index:2;
+    z-index:3;
     width:60%;
     height:100%;
+    color:black;
 }
 .right_third
 {
@@ -298,6 +300,9 @@ body
 }
 .small
 {
+    font-size:40px;
+    font-family: sans-serif;
+    font-weight:900;
     color:white;
     font-family: sans-serif;
     font-weight:lighter;
