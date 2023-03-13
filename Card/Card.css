@@ -1,0 +1,135 @@
+
+body{
+    display:flex;
+    background-color:rgb(10, 12, 27);
+    align-items:center;
+    justify-content:center;
+}
+.card
+{
+    background-color:#1C1938;
+    width:70vw;
+    height: 70vh;
+    border-radius:8px;
+    display:flex;
+}
+.first
+{
+    width: 35vw;
+    height:70vh;
+    margin:0.45in;
+    font-family:sans-serif;
+}
+.text
+{
+    width:35vw;
+    height:35vh;
+
+}
+.bottom
+{
+    display:flex;
+    flex-direction:row;
+    align-items:start;
+    justify-content:start;
+    width:35vw;
+    height:5vh;
+
+}
+.sub
+{
+    border: 2.5in #1C1938 ;
+    padding: 0.1in;
+}
+span
+{
+    color:rgb(126, 68, 161);
+}
+.text1
+{
+    color:rgb(227, 228, 233);
+    line-height:40px;
+}
+.text2
+{
+    color:#5F5E74;
+    position:initial;
+    line-height:30px;
+}
+.text3
+{
+    color:#5F5E74;
+    line-height:0.1px;
+}
+.second
+{
+    width:35vw;
+    height:70vh;
+    background:url('/Card/assests/images/image-header-desktop.jpg');
+    border-radius:4px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+@media only screen and (max-width:768px)
+{
+    .card
+    {
+        width:80vw;
+        height:90vh;
+        margin:3%;
+        flex-direction:column-reverse;
+    }
+    .second
+    {
+        width:80vw;
+        height:60vh;
+        background-size: cover;
+    }
+    .first
+    {
+        width:70vw;
+        margin:20px;
+    }
+    .text
+    {
+        width:60vw;
+        height:25vh;
+        margin-left:5svw;
+    }
+    .text1
+    {
+        text-align:center;
+        margin-top:0;
+        width:60vw;
+    }
+    .text2
+    {
+        width:60vw;
+        height:8vh;
+        text-align:center;
+        line-height:20px;
+        font-weight:lighter;
+        color:white;
+    }
+    .text3
+    {
+        width:50vw;
+        height:10vh;
+        margin-left:12%;
+        text-align: center;
+    }
+
+    .bottom
+    {
+        width:70vw;
+        height:30vh;
+        flex-direction:column;
+    
+    }
+    .sub
+    {
+        text-align:center;
+        width:40vw;
+        height:5vh;
+    }
+}
