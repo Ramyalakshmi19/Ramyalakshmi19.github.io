@@ -251,7 +251,7 @@ body
     margin-left:15vw;
     min-width:350px;
     width:70vw;
-    height:50vh;
+    height:55vh;
     background-color:#21293C;
 }
 .accessText
@@ -290,7 +290,7 @@ body
 }
 .footer
 {
-    min-width:350px;
+    min-width:380px;
     max-height:140vh;
     margin-top:35vh;
     background-color:#0C1524;
@@ -349,7 +349,7 @@ body
     .early_access
     {
         margin-left:5vw;
-        margin-top:445vh;
+        margin-top:465vh;
     }
     .outer
     {
