@@ -1,0 +1,67 @@
+<html>
+    <title>
+        Tip calculator
+    </title>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Space+Mono:wght@700&display=swap');
+        </style>
+    </head>
+    <body>
+        <img class="logo" src="./logo.svg">
+        <div class="center_card">
+            <div class="left_card">
+                    <p class="text">Bill</p>
+                    <div class="Input_box" id="bill_box">
+                        <img class="icon" src="./icon-dollar.svg">
+                        <input type="text " required value="0" class="bill" id="amount">
+                    </div>
+                    <div id="tip_card">
+                    <p class="text">Select Tip %</p>
+                    <div class="percentage">
+                    <span class="tip">
+                        <input type="radio" class="radio_btn" name="tip_percent" id="5%" value="0.05">
+                        <label for="5%">5%</label>
+                    </span>
+                    <span class="tip">
+                        <input type="radio" class="radio_btn" name="tip_percent" id="10%" value="0.10">
+                        <label for="10%">10%</label>
+                    </span>
+                    <span class="tip">
+                        <input type="radio" class="radio_btn" name="tip_percent" id="15%" value="0.15">
+                        <label for="15%">15%</label>
+                    </span>
+                    <span class="tip">
+                        <input type="radio" class="radio_btn" name="tip_percent" id="25%" value="0.25">
+                        <label for="25%">25%</label>
+                    </span>
+                    <span class="tip">
+                        <input type="radio" class="radio_btn" name="tip_percent" id="50%" value="0.50">
+                        <label for="50%">50%</label>
+                    </span>
+                    <span class="tip grey">
+                        <input type="text" class="radio_btn" name="tip_percent" id="custom" value="custom">
+                    </span>
+                    </div>
+                    </div>
+                    <p class="text" >Number of people</p>
+                    <div class="Input_box" id="people_box">
+                        <img class="icon" src="./icon-person.svg">
+                        <input type="text " required class="bill" value="1" id="numberOfPeople">
+                    </div>
+                    <button id="submit_btn">Get Tip</button>
+            </div>
+            <div class="right_card">
+                <div class="grid">
+                    <div class="subhead"> Tip Amount<br><span class="per">/person</span> </div>
+                    <div class="calc"><p id="tipPerPerson">$0.00</p></div>
+                    <div class="subhead"> Total<br><span class="per">/person</span></div>
+                    <div class="calc" ><p id="TotalPerPerson"> $0.00</p></div>
+                </div>
+                <button class="reset">RESET</button>
+            </div>
+        </div>
+    </body>
+    <script src="./Script.js"></script>
+</html>

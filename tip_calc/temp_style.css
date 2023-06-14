@@ -1,0 +1,165 @@
+body{
+    background-color: #C5E4E7;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.logo
+{
+    margin-top: 15vh;
+}
+.center_card
+{
+    width: 60vw;
+    height:60vh;
+    margin-top:3vh;
+    border-radius:18px;
+    background-color: white;
+    display:flex;
+    flex-direction:row;
+}
+.left_card
+{
+    display:flex;
+    flex-direction:column;
+    margin-left:1vw;
+    width:30vw;
+    height:50vh;
+    border-radius:18px;
+}
+
+.right_card
+{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+    display:grid;
+    width:28vw;
+    height:55vh;
+    margin-top:2vh;
+    border-radius:18px;
+    background-color:#00474B;
+}
+.grid{
+    width:28vw;
+    height:10vh;
+    display:grid;
+    grid-template-columns:auto auto;
+    gap:2px 2px;
+}
+.reset
+{
+    font-weight: bold;
+    margin-left:1.5vw;
+    margin-top:25vh;
+    width: 25vw;
+    height:5vh;
+    border-radius:5px;
+    border:2px solid#26C2AD;
+    background-color:#26C2AD ;
+}
+.text{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-weight:lighter;
+}
+.tip{
+    color:#F3F8FB;
+    width:8vw;
+    height:5vh;
+    margin:3px;
+    border-radius:5px;
+    border:2px solid #00474B;
+    background-color: #00474B;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+.grey
+{
+    background-color:#90AAA9;
+}
+.tip:hover
+{
+    background-color:#26C2AD ;
+}
+
+.subhead
+{
+    margin:2vw;
+    font-size: small;
+    color:white;
+    width:10vw;
+    height:5vh;
+
+}
+.calc
+{
+    margin:2vw;
+    font-size: xx-large;
+    color: #26C2AD;
+    width:10vw;
+    height:5vh;
+}
+.per
+{
+    
+    font-size: smaller;
+    color: #46777B;
+}
+.bill
+{
+    text-align: right;
+    width: 20vw;
+    height:5vh;
+    color:#00474B;
+    font-size: larger;
+    font-weight: bold;
+    background-color:#F3F8FB;
+    border:2px solid #F3F8FB;
+}
+.bil:hover
+{
+    border:2px solid #F3F8FB;
+}
+.Input_box
+{
+    width:28vw;
+    height:5vh;
+    margin-left:1vw;
+    display:flex;
+    justify-content:space-between;
+    background-color:#F3F8FB;
+}
+input[type="radio"] {
+    left: -999em;
+    position: absolute;
+}
+.icon
+{
+    margin-top:5px;
+    width:15px;
+    height:15px;
+}
+#submit_btn
+{
+    width: 100px;
+    height:30px;
+    color:white;
+    margin-top:10px;
+    margin-left:10vw;
+    background-color:#00474B;
+    border-radius:8px;
+    border: 2px solid #F3F8FB;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+#submit_btn:hover
+{
+    border:2px solid #00474B;
+    background-color: #26C2AD;
+}
+#tip_card
+{
+    width:28vw;
+    height:30vh;
+}
