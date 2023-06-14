@@ -1,0 +1,54 @@
+<html>
+    <title>
+        Tip calculator
+    </title>
+    <head>
+        <link rel="stylesheet" href="temp_style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Space+Mono:wght@700&display=swap');
+        </style>
+    </head>
+    <body>
+        <img class="logo" src="./logo.svg">
+        <div class="center_card">
+            <div class="left_card">
+                    <p class="text">Bill</p>
+                    <div class="Input_box">
+                        <img class="icon" src="./icon-dollar.svg">
+                        <input type="text " value="0" class="bill" id="amount">
+                    </div>
+                    <div id="tip_card">
+                    <p class="text">Select Tip %</p>
+                    <button class="tip "><input type="radio"   name="tip_percent" value="5%" >
+                    <label for="5%">5%</label></button>
+                    <button class="tip "><input type="radio"  name="tip_percent" value="10%" >
+                    <label for="10%">10%</label></button>
+                    <button class="tip "><input type="radio"  name="tip_percent" value="15%" >
+                    <label for="15%">15%</label></button>
+                    <button class="tip "><input type="radio"  name="tip_percent" value="25%" >
+                    <label for="25%">25%</label></button>
+                    <button class="tip "><input type="radio"  name="tip_percent" value="50%" >
+                    <label for="50%">50%</label></button>
+                    <button class="tip grey"><input type="radio"  name="tip_percent" value="custom" >
+                    <label for="custom ">custom</label></button>
+                    </div>
+                    <p class="text">Number of people</p>
+                    <div class="Input_box">
+                        <img class="icon" src="./icon-person.svg">
+                        <input type="text " class="bill" id="numberOfPeople">
+                    </div>
+                    <button id="submit_btn"> Click me!</button>
+            </div>
+            <div class="right_card">
+                <div class="grid">
+                    <div class="subhead"> Tip Amount<br><span class="per">/person</span> </div>
+                    <div class="tipPerPerson calc">$4.27</div>
+                    <div class="subhead"> Total<br><span class="per">/person</span></div>
+                    <div class="TotalPerPerson calc"> $32.79</div>
+                </div>
+                <button class="reset">RESET</button>
+            </div>
+        </div>
+    </body>
+    <script src="./Script.js"></script>
+</html>
