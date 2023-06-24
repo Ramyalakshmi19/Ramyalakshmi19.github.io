@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Card_updater</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Space+Grotesk:wght@400;500&family=Space+Mono:wght@700&display=swap');
+          </style>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+       <div class="left_part">
+        <div class="card_holders">
+            <img class="front" src="./Assets/bg-card-front.png">
+            <img class="round" src="./Assets/card-logo.svg">
+            <div class="cd_num"><p id="cardh_num"></p></div>
+            <div class="cd_name"><p id="cardh_name"></p></div>
+            <div class="cd_exp">
+                <p id="cardh_exp"></p>
+            </div>
+            <img class="back" src="./Assets/bg-card-back.png">
+            <div class="cd_cvc"><p id="cardh_cvc"></p></div>
+        </div>
+
+
+       </div>
+       <div id="right_part">
+            <div id="outer_box">
+                <form>
+                    <p class="prompt">CARDHOLDER NAME</p>
+                    <input class="cardholder" type="text" id="name"  placeholder="Name" required >
+                    <p class="prompt"><br>CARD NUMBER</p>
+                    <input class="cardholder" type="number" id="num" placeholder="Num" class="cardholder" required >
+                    <P class="prompt"><br>EXP.DATE(MM/YY)<span class="cvc_prompt">CVC</span></P>
+                    <input class="card_det" type="number" min="1" max="12" id="expm" required placeholder="MM">
+                    <input  class="card_det year"type="number" id="expy" min="1970" max="2050" required placeholder="YY">
+                    <input class="card_cvc" type="text" id="cvc" required placeholder="e.g. 123"><br>
+                    <button id="confirm_btn"> Confirm</button>
+                </form>
+            </div>
+            <div id="confirmation">
+                <img class="ThanksLogo"src="./Assets/icon-complete.svg">
+                <p class="acknow">THANK YOU!</p>
+                <p class="grey">We've added your card details</p>
+            </div>
+       </div>
+    </body>
+    <script src="./Script.js"></script>
+</html>

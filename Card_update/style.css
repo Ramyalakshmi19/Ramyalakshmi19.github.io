@@ -1,0 +1,197 @@
+body
+{
+    margin:0;
+   display:flex;
+   flex-direction: row;
+}
+.left_part
+{
+    width:35%;
+    height:100%;
+    background-image: url('./Assets/bg-main-desktop.png');
+}
+#right_part
+{
+    width:65%;
+    height:100%;
+}
+#confirmation
+{
+    visibility: hidden;
+    position:absolute;
+    width:30%;
+    height:50%;
+    margin-top:-40vh;
+    margin-left:25%;
+}
+.ThanksLogo
+{
+    margin-left:12vw;
+}
+.acknow
+{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-size:x-large;
+    text-align: center;
+}
+.grey
+{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-size:medium;
+    color:grey;
+    text-align: center;
+}
+#outer_box
+{
+    /* visibility: hidden; */
+    width:50%;
+    height:50%;
+    margin-top:15%;
+    margin-left:40%;
+
+}
+#outer_box input
+{
+    height:5vh;
+    padding:10px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+.prompt{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-size:medium;
+    letter-spacing:1px;
+
+}
+.cardholder
+{
+    width:75%;
+    height:12%;
+    outline:None;
+    border:1px solid black;
+    border-radius:3px;
+}
+.card_det
+{
+    width:15%;
+    margin-left:3px;
+}
+.year
+{
+    width:20%;
+}
+.card_cvc
+{
+    width:30%;
+    margin-left:2vw;
+
+}
+#confirm_btn
+{
+    width: 71%;
+    height:10%;
+    margin-top:3vw;
+    background-color:black;
+    border-radius:6px;
+    color:white;
+}
+.card_holders
+{
+    width:40vw;
+    height:60vh;
+    margin-top:15vh;
+    margin-left:10vw;
+}
+.cd_num
+{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-size:larger;
+    font-weight:lighter;
+    letter-spacing:2px;
+    color:white;
+    width:25vw;
+    height:5vh;
+    position:absolute;
+    margin-top:8%;
+    margin-left:7%;
+}
+.cd_name
+{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-size: small;
+    font-weight:lighter;
+    color:white;
+    letter-spacing:1px;
+    width:12%;
+    height:2vh;
+    position:absolute;
+    margin-top:13%;
+    margin-left:7%;
+    
+}
+.cd_exp
+{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-size: small;
+    letter-spacing:1px;
+    color:white;
+    font-weight:lighter;
+    width:5%;
+    height:3vh;
+    position:absolute;
+    margin-top:13%;
+    margin-left:28%;
+}
+.cvc_prompt
+{
+    margin-left:4vw;
+}
+.cd_cvc
+{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-size: small;
+    letter-spacing:1px;
+    color:white;
+    font-weight:lighter;
+    width:5%;
+    height:3vh;
+    position:absolute;
+    margin-top:25%;
+    margin-left:35%;
+}
+.front
+{
+    width: 30%;
+    height:30%;
+    position:absolute;
+    margin-left:5%;
+}
+.round
+{
+    margin-left:7%;
+    margin-top:2%;
+    position:absolute;
+}
+.back
+{
+    width: 30%;
+    height:30%;
+    position:absolute;
+    margin-top:19%;
+    margin-left:15%;
+}
