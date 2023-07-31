@@ -1,0 +1,183 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+    background-color:#dedfdd;
+    display: flex;
+    flex-direction:row;
+    margin:0;
+}
+.headings
+{
+    font-size:x-large;
+    font-weight: bold;
+}
+/* Style menubar */
+.navbar
+{
+    max-width:20vw;
+    height:90vh;
+    display:flex;
+    background-color:black;
+}
+.nav
+{
+    width:15vw;
+    max-height:100vh;
+    margin-top: 10vh;
+}
+.nav-item
+{
+    max-width:15vw;
+    height:6vh;
+    margin-bottom:2vh;
+    padding-top:1.5vh;
+    border-radius: 10px;
+    text-align: left;
+}
+.nav-link {
+
+    color: #fff;
+    font-size:larger;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.icon
+{
+    color: #fff;
+    margin-left:1vw;
+    margin-right:1vw;
+    vertical-align: bottom;
+    font-size:10px;
+}
+.black
+{
+    color: black;
+}
+
+.nav-item:hover {
+    background-color:#8AC186;
+}
+
+/* LogOut button */
+.logout
+{
+    font-size: large;
+    font-weight: bold;
+    text-align:center;
+    width:20vw;
+    height:10vh;
+    background-color:black;
+    
+}
+.logout a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Iconbar */
+.IconBar
+{
+    width:5vw;
+    height:100vh;
+    background-color: black;
+}
+
+.MainContent
+{
+    margin-left:4vw;
+}
+/* Header */
+.MainHeader
+{
+    margin-top:7vh;
+    display:flex;
+    width:90vw;
+    height:10vh;
+}
+.searchgrp
+{
+    max-width:30vw;
+    max-height:5vh;
+}
+.notifications
+{
+    width:max-content;
+    height:10vh;
+    margin-left:25vw;
+}
+.profilepic
+{
+    width:60px;
+    height:40px;
+}
+.col
+{
+    background-color: #fff;
+    height:20vh;
+    margin-right:10px;
+    margin-top:2vh;
+    margin-bottom:5vh;
+    border-radius:5px;
+}
+.RowHead
+{
+    width:20vw;
+    height:5vh;
+    font-size: large;
+    margin-top:3vh;
+}
+.stats
+{
+    margin-left:6vw;
+    margin-top:1vh;
+    font-weight: bolder;
+    font-size:xx-large;
+}
+.table
+{
+    width:30vw;
+    height:45vh;
+}
+.TableBody
+{
+    width:28vw;
+    height:10vh;
+    margin:10px;
+    border-radius:5px;
+    display:flex;
+    background-color:#d1f8f8;
+}
+.TableBody:hover
+{
+    background-color:#8AC186;
+}
+.employeepic
+{
+    width:50px;
+    height:50px;
+    margin-top:7px;
+    margin-left:10px;
+    border-radius:3px;
+}
+.details
+{
+    background-color:#d1f8f8;
+}
+.EmpName
+{
+    margin-top:2vh;
+    margin-left:2vw;
+    font-weight:bolder;
+    font-size:larger;
+}
+.EmpDesig
+{
+    color:rgb(129, 129, 129);
+    margin-top:3vh;
+    margin-left:0.5vw;
+    font-weight:bold;
+    font-size:smaller;
+}
