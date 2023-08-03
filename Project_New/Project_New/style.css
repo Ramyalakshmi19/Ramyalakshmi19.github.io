@@ -18,11 +18,11 @@ body
     z-index: 1;
     display:flex;
     width:4vw;
-    padding-left:1vw;
+    padding-left:0.5vw;
     height:100vh;
     color:white;
     flex-direction: column;
-    background-color: black;
+    background-color:black;
 }
 .menu
 {
@@ -30,8 +30,8 @@ body
 }
 #IconBar span
 {
-    font-size:25px;
-    margin-bottom: 6.85vh;
+    font-size:4.4vh;
+    margin-bottom: 6vh;
 }
 
 
@@ -94,10 +94,10 @@ body
 .MainHeader
 {
     font-weight:bold;
-    margin-top:5vh;
+    margin-top:3vh;
     display:flex;
     justify-content:space-between;
-    width:85vw;
+    width:86vw;
     height:5vh;
 }
 .input-group
@@ -176,18 +176,17 @@ body
 /* Cards */
 .grid1
 {
-    
     display: grid;
+    /* border:2px solid black; */
     grid-template-columns:auto auto auto auto auto;
     margin:5vh 2vw 2vh 2vw;
-    margin-top:5vh;
-    margin-left:2vw;
     height:15vh;
     column-gap:3vw;
 }
 .grid1 div
 {
     border-radius:8px;
+    height:15vh;
     background-color: white;
 }
 /* Grid content */
@@ -197,7 +196,7 @@ body
     font-weight: bold;
     letter-spacing:0.1px;
     color: #8d9396;
-    padding-top:3vh;
+    padding-top:2vh;
     text-align:left;
 }
 .stats
@@ -216,7 +215,7 @@ body
 /* Grid Layout for charts */
 .grid2
 {
-    height:55vh;
+    height:60vh;
     margin-top: 1vh;
     margin-left:2vw;
     display: grid;
@@ -231,6 +230,7 @@ body
 .emp
 {
     background-color: white;
+    height:60vh;
     border-radius: 10px;
     grid-row-start: 1;
     grid-row-end: 3;
@@ -264,6 +264,7 @@ body
 .EmpStrip
 {
     display: grid;
+    place-items:center;
     grid-template-columns: 25% 45% 30%;
 }
 .EmpPic
@@ -274,12 +275,10 @@ body
 }
 .employeepic
 {
-    padding-top:1.2vh;
-    width:50px;
-    height:60px;
+    max-width:4vw;
+    max-height:8vh;
     border-radius:8px;
 }
-
 
 
 
